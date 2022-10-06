@@ -3,3 +3,11 @@
     margin-right: 15px;
     padding: 2px 5px;
 }
+
+header a:hover {
+    background-color: blueviolet;
+}
+
+.active {
+    background-color: pink;
+}

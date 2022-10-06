@@ -7,7 +7,7 @@ const Posts = () => {
     console.log(posts)
     return (
         <div>
-            <h3>Here lots of post are here</h3>
+            <h3>Here lots of post are here{posts?.length}</h3>
 
             {
                 posts.map(post => <Post
